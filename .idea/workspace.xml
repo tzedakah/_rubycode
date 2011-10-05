@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="local_scope.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local_scope.rb">
+      <file leaf-file-name="initial_state_setter.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/initial_state_setter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="160" selection-end="160" vertical-scroll-proportion="0.39184397">
+            <state line="17" column="18" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setter_filtered.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setter_filtered.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="7" selection-start="343" selection-end="343" vertical-scroll-proportion="0.8109091">
               <folding />
             </state>
           </provider>
@@ -46,15 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/c2fi" />
-        <option value="$PROJECT_DIR$/c2fi.rb" />
-        <option value="$PROJECT_DIR$/c2fout.rb" />
-        <option value="$PROJECT_DIR$/loadee.rb" />
-        <option value="$PROJECT_DIR$/loaddemo.rb" />
-        <option value="$PROJECT_DIR$/ticket.rb" />
-        <option value="$PROJECT_DIR$/ticket_short.rb" />
-        <option value="$PROJECT_DIR$/instrospection.rb" />
-        <option value="$PROJECT_DIR$/required_and_opt_arg.rb" />
         <option value="$PROJECT_DIR$/default_val_arg.rb" />
         <option value="$PROJECT_DIR$/mixed_arg.rb" />
         <option value="$PROJECT_DIR$/mixed_arguments.rb" />
@@ -62,6 +62,15 @@
         <option value="$PROJECT_DIR$/mexcla_ag.rb" />
         <option value="$PROJECT_DIR$/unleashed.rb" />
         <option value="$PROJECT_DIR$/local_scope.rb" />
+        <option value="$PROJECT_DIR$/replac_usage.rb" />
+        <option value="$PROJECT_DIR$/ref_argum_s.rb" />
+        <option value="$PROJECT_DIR$/dup_clone_freez.rb" />
+        <option value="$PROJECT_DIR$/class_practice1.rb" />
+        <option value="$PROJECT_DIR$/overr_meth.rb" />
+        <option value="$PROJECT_DIR$/instance_btw_meth.rb" />
+        <option value="$PROJECT_DIR$/initial_state.rb" />
+        <option value="$PROJECT_DIR$/initial_state_setter.rb" />
+        <option value="$PROJECT_DIR$/setter_filtered.rb" />
       </list>
     </option>
   </component>
@@ -139,11 +148,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lib/ruby/1.8" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.local_scope">
-    <configuration default="false" name="default_val_arg" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.setter_filtered">
+    <configuration default="false" name="overr_meth" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -153,13 +163,13 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/default_val_arg.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/overr_meth.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="mixed_arguments" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="instance_btw_meth" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -169,31 +179,13 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:\RailsInstaller\Ruby1.8.7\myprojects\_rubycode\mixed_arguments.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="mexcla_ag" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:\RailsInstaller\Ruby1.8.7\myprojects\_rubycode\mexcla_ag.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/instance_btw_meth.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="unleashed" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="initial_state" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -203,13 +195,13 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/unleashed.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/initial_state.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="local_scope" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="initial_state_setter" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -219,7 +211,23 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/local_scope.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/initial_state_setter.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="setter_filtered" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/setter_filtered.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -276,11 +284,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Ruby.c2fi" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.loaddemo" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.default_val_arg" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.mixed_arg" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.mexcla_arg" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.unleashed" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.local_scope" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.overr_meth" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.instance_btw_meth" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.initial_state" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.initial_state_setter" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.setter_filtered" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -310,7 +318,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="121" y="77" width="1059" height="560" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,9 +326,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.22133939" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960254" sideWeight="0.6708286" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30754164" sideWeight="0.70069605" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29930395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -373,70 +381,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/temp.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2fi.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.18085106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../lib/ruby/1.8/rdoc/markup/simple_markup/fragments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadee.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.019906323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loaddemo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="73" selection-end="73" vertical-scroll-proportion="0.039812647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2fout.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="206" selection-end="206" vertical-scroll-proportion="0.11943794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2f.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instrospection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="0" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket_short.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="354" selection-end="354" vertical-scroll-proportion="0.6932624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticket.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="40" selection-start="107" selection-end="107" vertical-scroll-proportion="0.2109929">
@@ -472,9 +416,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ref_argum_s.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="0.51241136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replac_usage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="91" selection-end="91" vertical-scroll-proportion="0.18085106">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/local_scope.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="10" selection-start="160" selection-end="160" vertical-scroll-proportion="0.39184397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dup_clone_freez.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.120567374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../lib/ruby/1.8/time.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overr_meth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="71" selection-start="347" selection-end="347" vertical-scroll-proportion="0.45212767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_practice1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="108" selection-end="108" vertical-scroll-proportion="0.18085106">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initial_state.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="218" selection-end="218" vertical-scroll-proportion="0.10181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instance_btw_meth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.8618182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initial_state_setter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setter_filtered.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="343" selection-end="343" vertical-scroll-proportion="0.8109091">
           <folding />
         </state>
       </provider>
