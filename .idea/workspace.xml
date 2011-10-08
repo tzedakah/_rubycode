@@ -32,19 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stack.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch4/stack.rb">
+      <file leaf-file-name="cargohold_inheriting.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch4/cargohold_inheriting.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module_inc_herit.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch4/module_inc_herit.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="136" selection-end="136" vertical-scroll-proportion="0.8592058">
+            <state line="26" column="19" selection-start="356" selection-end="356" vertical-scroll-proportion="1.9217391">
               <folding />
             </state>
           </provider>
@@ -64,12 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/initial_state.rb" />
-        <option value="$PROJECT_DIR$/initial_state_setter.rb" />
-        <option value="$PROJECT_DIR$/setter_filtered.rb" />
-        <option value="$PROJECT_DIR$/ticket_class_wr.rb" />
-        <option value="$PROJECT_DIR$/inheritance_.rb" />
-        <option value="$PROJECT_DIR$/singleton.rb" />
         <option value="$PROJECT_DIR$/converter_class.rb" />
         <option value="$PROJECT_DIR$/constant_up_close.rb" />
         <option value="$PROJECT_DIR$/constant_up_cl_mod.rb" />
@@ -80,6 +65,12 @@
         <option value="$PROJECT_DIR$/ch4/nonmodular_rwr.rb" />
         <option value="$PROJECT_DIR$/ch4/cargohold.rb" />
         <option value="$PROJECT_DIR$/ch4/module_inc_herit.rb" />
+        <option value="$PROJECT_DIR$/ch4/Interest_bearing.rb" />
+        <option value="$PROJECT_DIR$/ch4/two_modules.rb" />
+        <option value="$PROJECT_DIR$/ch4/super_kw.rb" />
+        <option value="$PROJECT_DIR$/ch4/wrap_a_method_within_one_subclass.rb" />
+        <option value="$PROJECT_DIR$/ch4/sample_person_class.rb" />
+        <option value="$PROJECT_DIR$/ch4/cargohold_inheriting.rb" />
       </list>
     </option>
   </component>
@@ -175,8 +166,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Ruby.module_inc_herit">
-    <configuration default="false" name="stack" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.cargohold_inheriting">
+    <configuration default="false" name="two_modules" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch4" />
@@ -186,13 +177,13 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/stack.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/two_modules.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="stack_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="super_kw" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch4" />
@@ -202,13 +193,13 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/stack_test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/super_kw.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="nonmodular_rwr" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="wrap_a_method_within_one_subclass" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch4" />
@@ -218,13 +209,13 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/nonmodular_rwr.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/wrap_a_method_within_one_subclass.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="cargohold" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="sample_person_class" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch4" />
@@ -234,13 +225,15 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/cargohold.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/sample_person_class.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="module_inc_herit" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="cargohold_inheriting" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch4" />
@@ -250,7 +243,7 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/module_inc_herit.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch4/cargohold_inheriting.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -381,11 +374,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Ruby.c2fi" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.loaddemo" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.stack" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.stack_test" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.nonmodular_rwr" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.cargohold" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.module_inc_herit" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.two_modules" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.super_kw" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.wrap_a_method_within_one_subclass" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.sample_person_class" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.cargohold_inheriting" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -415,21 +408,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="732" width="1059" height="699" extended-state="0" />
+    <frame x="115" y="85" width="1049" height="428" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.22133939" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30754164" sideWeight="0.53333336" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46666667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3105836" sideWeight="0.4749164" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30079454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5250836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -475,44 +468,15 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/ch4/sample_person_class.rb</url>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/converter_class.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="149" selection-end="149" vertical-scroll-proportion="0.5708955" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket_class_wr.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="304" selection-end="304" vertical-scroll-proportion="0.17537314" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_up_close.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="0" selection-end="229" vertical-scroll-proportion="0.31716418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_up_cl_mod.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="128" selection-end="128" vertical-scroll-proportion="0.25373134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singleton.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="449" selection-end="449" vertical-scroll-proportion="0.49253732" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mexcla_ag.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unleashed.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="95" selection-end="95" vertical-scroll-proportion="0.31716418" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/instrospection.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -553,9 +517,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/interest_bearing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="302" selection-end="302" vertical-scroll-proportion="0.5013405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/wrap_a_method_within_one_subclass.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/super_kw.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.7183099">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/two_modules.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09115282">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/module_inc_herit.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10" selection-start="136" selection-end="136" vertical-scroll-proportion="0.6380697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch4/stack.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+        <state line="3" column="26" selection-start="55" selection-end="55" vertical-scroll-proportion="0.13672923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4/sample_person_class.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="4" selection-start="632" selection-end="632" vertical-scroll-proportion="0.69582504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instance_btw_meth.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -567,9 +580,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/module_inc_herit.rb">
+    <entry file="file://$PROJECT_DIR$/ch4/cargohold_inheriting.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="136" selection-end="136" vertical-scroll-proportion="0.8592058">
+        <state line="26" column="19" selection-start="356" selection-end="356" vertical-scroll-proportion="1.9217391">
           <folding />
         </state>
       </provider>
