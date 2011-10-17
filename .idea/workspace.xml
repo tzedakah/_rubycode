@@ -23,28 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="global_scope.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5/global_scope.rb">
+      <file leaf-file-name="constant_scope.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch5/constant_scope.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.70247936">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whole_name_from_values.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5/whole_name_from_values.rb">
+      <file leaf-file-name="constant_scope_b.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch5/constant_scope_b.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global_wh_names.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5/global_wh_names.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.8007246">
+            <state line="4" column="8" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,10 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ch4/super_kw.rb" />
-        <option value="$PROJECT_DIR$/ch4/wrap_a_method_within_one_subclass.rb" />
-        <option value="$PROJECT_DIR$/ch4/sample_person_class.rb" />
-        <option value="$PROJECT_DIR$/ch4/cargohold_inheriting.rb" />
         <option value="$PROJECT_DIR$/ch5/examining_self.rb" />
         <option value="$PROJECT_DIR$/ch5/weird_looking.rb" />
         <option value="$PROJECT_DIR$/ch5/self_insingleton.rb" />
@@ -80,6 +67,10 @@
         <option value="$PROJECT_DIR$/ch5/chatty.rb" />
         <option value="$PROJECT_DIR$/ch5/global_scope.rb" />
         <option value="$PROJECT_DIR$/ch5/global_wh_names.rb" />
+        <option value="$PROJECT_DIR$/ch5/nesting_classes.rb" />
+        <option value="$PROJECT_DIR$/ch5/recursion_x_calls.rb" />
+        <option value="$PROJECT_DIR$/ch5/constant_scope.rb" />
+        <option value="$PROJECT_DIR$/ch5/constant_scope_b.rb" />
       </list>
     </option>
   </component>
@@ -128,6 +119,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,84 +155,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="C:/lib/ruby/1.8" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.global_wh_names">
-    <configuration default="false" name="whole_name_from_values" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/whole_name_from_values.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="wh_name_pasted" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/wh_name_pasted.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="chatty" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/chatty.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="global_scope" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/global_scope.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.constant_scope_b">
     <configuration default="false" name="global_wh_names" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -251,6 +178,70 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/global_wh_names.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nesting_classes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/nesting_classes.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="recursion_x_calls" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/recursion_x_calls.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="constant_scope" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/constant_scope.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="constant_scope_b" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/constant_scope_b.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -381,11 +372,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Ruby.c2fi" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.loaddemo" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.whole_name_from_values" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.wh_name_pasted" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.chatty" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.global_scope" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.global_wh_names" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.global_wh_names" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.nesting_classes" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.recursion_x_calls" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.constant_scope" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.constant_scope_b" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -435,21 +426,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="3" width="1133" height="605" extended-state="0" />
-    <editor active="false" />
+    <frame x="96" y="380" width="1133" height="540" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.22133939" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20547946" sideWeight="0.6365546" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20547946" sideWeight="0.36009732" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30079454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36344537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.63990265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="11" y="410" width="1258" height="309" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -504,106 +495,96 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/instance_btw_meth.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/cargohold_inheriting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="356" selection-end="356" vertical-scroll-proportion="0.5175644" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/cargohold.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.27868852" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch4/stack_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="125" selection-end="125" vertical-scroll-proportion="0.13934426" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5/class_insing_var.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="95" selection-end="95" vertical-scroll-proportion="0.30126584">
-          <folding />
-        </state>
+        <state line="7" column="3" selection-start="95" selection-end="95" vertical-scroll-proportion="0.30126584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/class_insingleton.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="92" selection-end="92" vertical-scroll-proportion="0.30126584">
-          <folding />
-        </state>
+        <state line="7" column="29" selection-start="92" selection-end="92" vertical-scroll-proportion="0.30126584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/self_insingleton.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="66" selection-start="88" selection-end="88" vertical-scroll-proportion="0.12911393">
-          <folding />
-        </state>
+        <state line="3" column="66" selection-start="88" selection-end="88" vertical-scroll-proportion="0.12911393" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/weird_looking.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.43037975">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.43037975" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/self_no_dot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="8" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/examining_self.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="163" selection-end="163" vertical-scroll-proportion="0.5643154">
-          <folding />
-        </state>
+        <state line="8" column="11" selection-start="163" selection-end="163" vertical-scroll-proportion="0.5643154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/wh_name_pasted.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="61" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="61" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/chatty.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.9503106">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.9503106" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/instance_dotless.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="45" selection-end="45" vertical-scroll-proportion="0.123188406">
-          <folding />
-        </state>
+        <state line="2" column="29" selection-start="45" selection-end="45" vertical-scroll-proportion="0.123188406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/global_scope.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+        <state line="8" column="16" selection-start="105" selection-end="105" vertical-scroll-proportion="0.24772313">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/whole_name_from_values.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+        <state line="12" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.3715847">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/global_wh_names.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.8007246">
+        <state line="13" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.4025501">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/nesting_classes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/constant_scope_b.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/recursion_x_calls.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="359" selection-end="359" vertical-scroll-proportion="2.3884296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/constant_scope.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.70247936">
           <folding />
         </state>
       </provider>
