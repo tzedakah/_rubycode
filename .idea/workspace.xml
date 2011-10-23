@@ -41,10 +41,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticket_class.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ticket_class.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch6/ticket_class.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="470" selection-end="470" vertical-scroll-proportion="0.54448396">
+            <state line="21" column="12" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="celsiustab.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch6/celsiustab.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="times_itr.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch6/times_itr.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,14 +79,9 @@
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///IRB console" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ch5/global_scope.rb" />
-        <option value="$PROJECT_DIR$/ch5/global_wh_names.rb" />
         <option value="$PROJECT_DIR$/ch5/nesting_classes.rb" />
         <option value="$PROJECT_DIR$/ch5/recursion_x_calls.rb" />
         <option value="$PROJECT_DIR$/ch5/constant_scope.rb" />
@@ -83,6 +96,8 @@
         <option value="$PROJECT_DIR$/ch6/user_input.rb" />
         <option value="$PROJECT_DIR$/ch6/three_equals.rb" />
         <option value="$PROJECT_DIR$/ch6/ticket_class.rb" />
+        <option value="$PROJECT_DIR$/ch6/celsiustab.rb" />
+        <option value="$PROJECT_DIR$/ch6/times_itr.rb" />
       </list>
     </option>
   </component>
@@ -179,52 +194,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="C:/lib/ruby/1.8" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.ticket_class">
-    <configuration default="false" name="protected_meth" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/protected_meth.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="talk" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="_rubycode" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch5" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch5/talk.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.times_itr">
     <configuration default="false" name="user_input" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="_rubycode" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -268,6 +251,38 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch6/ticket_class.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="celsiustab" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch6" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch6/celsiustab.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="times_itr" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="_rubycode" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ch6" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ch6/times_itr.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -398,11 +413,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Ruby.c2fi" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.loaddemo" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.protected_meth" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.talk" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.user_input" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.three_equals" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.ticket_class" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.user_input" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.three_equals" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.ticket_class" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.celsiustab" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.times_itr" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -453,7 +468,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="177" width="1134" height="601" extended-state="1" />
+    <frame x="114" y="368" width="1134" height="601" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -522,16 +537,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch5/whole_name_from_values.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.3715847" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5/global_wh_names.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="246" selection-end="246" vertical-scroll-proportion="0.4025501" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5/nesting_classes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="20" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" />
@@ -569,49 +574,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/talk.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.11460674">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.11460674" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/protected_meth.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="222" selection-end="222" vertical-scroll-proportion="0.54157305">
-          <folding />
-        </state>
+        <state line="15" column="2" selection-start="222" selection-end="222" vertical-scroll-proportion="0.54157305" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/dog_years.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="457" selection-end="457" vertical-scroll-proportion="0.724537">
-          <folding />
-        </state>
+        <state line="22" column="2" selection-start="457" selection-end="457" vertical-scroll-proportion="0.724537" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/baker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="2" selection-start="446" selection-end="446" vertical-scroll-proportion="0.7707865">
-          <folding />
-        </state>
+        <state line="39" column="2" selection-start="446" selection-end="446" vertical-scroll-proportion="0.7707865" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch6/user_input.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="216" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="27" selection-start="216" selection-end="250" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch6/three_equals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="2" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch6/ticket_class.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="470" selection-end="470" vertical-scroll-proportion="0.54448396">
+        <state line="21" column="12" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/celsiustab.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6/times_itr.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
